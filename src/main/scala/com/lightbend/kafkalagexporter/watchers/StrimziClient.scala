@@ -31,7 +31,7 @@ object StrimziClient {
     val shortNames = "k"
     val plural = "kafkas"
     val group = "kafka.strimzi.io"
-    val groupVersion = s"$group/v1alpha1"
+    val groupVersion = s"$group/v1beta2"
   }
   class KafkaResourceList extends CustomResourceList[KafkaResource]
   class KafkaResourceDoneable(
